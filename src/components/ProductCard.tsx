@@ -42,8 +42,11 @@ function OverlayCheckmark() {
           "0%": {
             transform: "rotate(0) scale(0)",
           },
-          "100%": {
+          "60%": {
             transform: "rotate(360deg) scale(1)",
+          },
+          "100%": {
+            transform: "rotate(360deg) scale(0.8)",
           },
         },
       }}
