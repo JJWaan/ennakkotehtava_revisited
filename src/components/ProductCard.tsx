@@ -22,6 +22,8 @@ interface ProductCardProps {
 
 // const imageBaseUrl: string = "https://notRealEndpoint.dev";
 
+const cardHeight = 160;
+
 function OverlayCheckmark() {
   return (
     <Box
@@ -33,7 +35,7 @@ function OverlayCheckmark() {
         justifyContent: "center",
         alignItems: "center",
         width: 220,
-        height: 200,
+        height: cardHeight,
         opacity: 0.82,
         animation: "rotateClockwise 0.18s ease-out",
         "@keyframes rotateClockwise": {
@@ -72,7 +74,7 @@ function ProductCard({ product, handleSelect }: ProductCardProps) {
       className="product-card"
       sx={{
         width: 220,
-        // minHeight: 260,
+        minHeight: cardHeight,
         transition: "transform 0.2s ease-in-out",
         "&:hover": {
           transform: "scale(1.05)",
