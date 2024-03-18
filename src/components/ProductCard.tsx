@@ -6,7 +6,7 @@ import {
   CardActionArea,
   CardContent,
   CardHeader,
-  CardMedia,
+  // CardMedia,
   Fade,
   Rating,
   Stack,
@@ -20,7 +20,7 @@ interface ProductCardProps {
   handleSelect: (product: IProduct) => void;
 }
 
-const imageBaseUrl: string = "https://notRealEndpoint.dev";
+// const imageBaseUrl: string = "https://notRealEndpoint.dev";
 
 function OverlayCheckmark() {
   return (

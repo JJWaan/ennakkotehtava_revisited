@@ -20,7 +20,6 @@ function Products() {
     return <ProductsErrorComponent />;
   }
 
-  console.log("rquery", data);
   return <ProductsList products={data} />;
 }
 
