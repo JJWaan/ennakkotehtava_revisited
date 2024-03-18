@@ -12,7 +12,7 @@ function OrderActionsBase() {
   useEffect(() => {
     if (productContext) {
       let price = productContext.selectedProducts.reduce(function (acc, obj) {
-        return acc + obj.amount;
+        return acc + obj.id;
       }, 0);
 
       setTotalPrice(price);
