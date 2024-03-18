@@ -1,6 +1,6 @@
 # ennakkotehtava_revisited
 
-Typescript + React.js applikaatio.
+Typescript + React.js applikaatio, minkä tarkoitus tehdä perus HTTP-protokollan kutsuja. Haasteena luoda applikaatio ilman routeria, aikaraja työlle 10h.
 
 Tämä on eräs projekti, minkä rakensin tietynlaisten vaatimusten ja API-rakenteen pohjalta.
 
