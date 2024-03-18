@@ -3,6 +3,7 @@ export interface IProduct {
   name: string;
   username: string;
   email: string;
+  phone: string;
 }
 
 // export interface IProduct {
